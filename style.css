@@ -1,16 +1,55 @@
+body {
+    display: flex;
+    height: 100vh;
+     
+
+    margin: 0px;
+    padding: 0px;
+}
+
 .Evants-css {
-    border: 2px solid red;
+    border: 2px solid rgba(36, 34, 34, 0.087);
     display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.667);
+    background-color: rgba(0, 0, 0, 0.42);
+    justify-content: center;
+    padding: 10px;
+    
+
 }
-#date-css{
-    background-color: red;
+
+#date-css {
+    background-color: rgb(166, 36, 36);
     color: white;
     border: black solid 2px;
-    display: flex;
+    padding: 20px;
+}
 
+.big-css {
+    border: solid 1px black;
+    overflow: scroll;
+}
+
+.card {
+    display: flex;
+    border: solid black 1px;
+    margin: 5px;
+}
+
+.position-css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/2560px-Flag_of_Algeria.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#text-css{
+    padding: 7px;
 }
